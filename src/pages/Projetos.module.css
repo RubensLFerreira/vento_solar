@@ -1,15 +1,26 @@
+.project_container {
+  padding: 2em;
+}
+
+.tittle_container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2em;
+}
+
+
+
 .subDiv {
+  margin-top: 40px;
   width: 1100px;
-  max-width: 90%;
-  min-width: 10%;
   height: 600px;
-  max-height: 600px;
   background: #4d5f8d; 
   margin-left: 20px; 
   padding: 10px;
   margin-top:10px;
   background-color: #222;
   border-radius: 5px;
+  margin-bottom: 40px;
   }
   .subDiv h1 {
     color: #fd923f;
@@ -26,13 +37,19 @@
   flex-wrap: wrap;
 }
 
-
-.project_container {
-  padding: 2em;
+.divConteiner {
+  background-color: #fd923f;
+  margin: 5px;
+  display: flex;
 }
 
-.tittle_container {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 2em;
+.divConteiner div {
+  width: 50%;
+  margin: 5px;
+  background-color: #683ffd;
+  display: inline-block;
+  flex-wrap: wrap;
+}
+.divConteiner img {
+  width: 300px;
 }

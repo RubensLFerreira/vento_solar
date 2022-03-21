@@ -1,19 +1,14 @@
-.div {
-  background-color: aqua;
-}
-
 .subDiv {
+  margin-top: 40px;
   width: 1100px;
-  max-width: 90%;
-  min-width: 10%;
   height: 600px;
-  max-height: 600px;
   background: #4d5f8d; 
   margin-left: 20px; 
   padding: 10px;
   margin-top:10px;
   background-color: #222;
   border-radius: 5px;
+  margin-bottom: 40px;
   }
   .subDiv h1 {
     color: #fd923f;
@@ -28,4 +23,44 @@
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+}
+
+.subDiv form {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.subDiv form label {
+  display: flex;
+  flex-direction: column;
+  color: beige;
+}
+
+.subDiv form input {
+  border-radius: 5px;
+  border: 1px solid gray;
+  height: 25px;
+  width: 300px;
+}
+
+.subDiv form button {
+  width: 300px;
+  height: 40px;
+  background-color: #fd923f;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  color: #222;
+  font-size: 12pt;
+}
+
+.subDiv form span {
+  color: red;
+  position:absolute;
+  margin-top: 50px;
 }
