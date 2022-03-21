@@ -13,7 +13,7 @@ function NavBar() {
           <li className={styles.item}><Link to="/">Home</Link></li>
           <li className={styles.item}><Link to="/empresa">Empresa</Link></li>
           <li className={styles.item}><Link to="/projetos">Serviços</Link></li>
-          <li className={styles.item}><Link to="/contato">Contato</Link></li>
+          <li className={styles.item}><Link to="/contato">Contatos</Link></li>
         </ul>
       </Container>
     </nav>

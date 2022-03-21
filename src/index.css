@@ -6,6 +6,8 @@
 }
 
 html, body, #root {
-  background-color: #efefef;
+  background-image: url("./img/wallpaper.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 100%;
 }

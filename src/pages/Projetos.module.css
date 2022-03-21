@@ -1,3 +1,32 @@
+.subDiv {
+  width: 1100px;
+  max-width: 90%;
+  min-width: 10%;
+  height: 600px;
+  max-height: 600px;
+  background: #4d5f8d; 
+  margin-left: 20px; 
+  padding: 10px;
+  margin-top:10px;
+  background-color: #222;
+  border-radius: 5px;
+  }
+  .subDiv h1 {
+    color: #fd923f;
+    padding: 8px;
+  }
+  .subDiv p {
+    color: rgb(204, 204, 204);
+    padding: 8px;
+  }
+.mainDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+
 .project_container {
   padding: 2em;
 }

@@ -3,27 +3,41 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: right;
   padding: 4em;
 }
 
 .home_container h1 {
   font-size: 2.5em;
   margin-bottom: .5em;
+  color: rgb(204, 204, 204);
+  /* background-color: #ffffff; */
+  background-color: #222;
+  padding: 5px 10px;
+  border-radius: 10px;
+  /* display: flex;
+  list-style: none;
+  align-items: center; */
 }
 
 .home_container h1 span {
-  color: #ffbb33;
+  font-family: 'Lobster', cursive;
+  color: #f8872e;
   padding: 0 .2em;
-  background-color: #222;
+  
 }
 
 .home_container p {
   margin-bottom: 1.5em;
-  color: #7b7b7b;
+  color: rgb(204, 204, 204);
+  background-color: #222;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 10px;
 }
 
 .home_container img {
   width: 350px;
   margin: 2em 0;
+  
 }

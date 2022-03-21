@@ -1,8 +1,12 @@
+import styles from './Projetos.module.css'
+
 function Projetos() {
   return (
-    <div>
-      <h1>Projetos</h1>
-      <p>Conteúdo da página</p>
+    <div className={styles.mainDiv}>
+      <div className={styles.subDiv}>
+      <h1>Serviços</h1>
+      <p>Serviço da página</p>
+      </div>
     </div>
   )
 }

@@ -1,8 +1,12 @@
+import styles from './Contato.module.css'
+
 function Contato() {
   return (
-    <div>
-      <h1>Contato</h1>
+    <div className={styles.mainDiv}>
+      <div className={styles.subDiv}>
+      <h1>Contatos</h1>
       <p>Conteúdo da página</p>
+      </div>
     </div>
   )
 }
