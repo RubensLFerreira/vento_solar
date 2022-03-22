@@ -12,8 +12,8 @@
 
 .subDiv {
   margin-top: 40px;
-  width: 1100px;
-  height: 600px;
+  width: 100%;
+  height: 100;
   background: #4d5f8d; 
   margin-left: 20px; 
   padding: 10px;
@@ -38,7 +38,9 @@
 }
 
 .divConteiner {
-  background-color: #fd923f;
+  /* background-color: #fd923f; */
+  width: 1100px;
+  height: 250px;
   margin: 5px;
   display: flex;
 }
@@ -46,10 +48,19 @@
 .divConteiner div {
   width: 50%;
   margin: 5px;
-  background-color: #683ffd;
+  /* background-color: #683ffd; */
   display: inline-block;
   flex-wrap: wrap;
 }
+
+.divConteiner h2{
+  color: #222;
+  background-color: rgb(204, 204, 204);
+  border-radius: 8px;
+  padding: 4px;
+}
+
+
 .divConteiner img {
   width: 300px;
 }
