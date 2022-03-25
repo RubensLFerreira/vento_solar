@@ -1,7 +1,7 @@
 .navbar{
   display: flex;
   justify-content: space-between;
-  background-color: #222;
+  background-color: rgba(34, 34, 34, 0);
   padding: 1em;
 }
 
@@ -15,10 +15,14 @@
 }
 
 .item a {
-  color: #fff;
+  color: rgb(0, 0, 0);
   text-decoration: none;
+  font-weight: bold;
+  padding: 8px;
 }
 
 .item a:hover {
   color: #ffbb33;
+  background-color: #222;
+  border-radius: 8px;
 }
