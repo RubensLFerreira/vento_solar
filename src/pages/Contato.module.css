@@ -1,53 +1,59 @@
-.subDiv {
-  margin-top: 40px;
-  width: 1100px;
-  height: 600px;
-  background: #4d5f8d; 
-  margin-left: 20px; 
-  padding: 10px;
-  margin-top:10px;
-  background-color: rgba(34, 34, 34, 0.87);
-  border-radius: 5px;
-  margin-bottom: 40px;
-  }
-  .subDiv h1 {
-    color: #fd923f;
-    padding: 8px;
-  }
-  .subDiv p {
-    color: rgb(204, 204, 204);
-    padding: 8px;
-  }
 .mainDiv {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+  width: 100%;
 }
 
-.subDiv form {
+.subDiv {
+  width: 80%;
+  height: 90%;
+  background: #4d5f8d; 
+  padding: 10px;
+  background-color: rgba(34, 34, 34, 0.87);
+  border-radius: 5px;
+  margin: 40px auto 40px auto;
+}
+  .subDiv h1 {
+    color: #fd923f;
+    padding: 8px;
+  }
+  .subDiv p {
+    color: rgb(228, 228, 228);
+    font-size: clamp(1rem, 0.6vw, 2rem);
+    padding: 8px;
+  }
+
+.divForm {
+  width: 100%;
+  height: 100%;
+}
+
+.divForm form {
 
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 50px;
+  margin: 0px auto 50px auto;
 }
 
-.subDiv form label {
+.divForm form label {
   display: flex;
   flex-direction: column;
-  color: beige;
+  color: rgb(228, 228, 228);
 }
 
-.subDiv form input {
+.divForm form input {
   border-radius: 5px;
   border: 1px solid gray;
   height: 25px;
   width: 300px;
 }
 
-.subDiv form button {
+.divForm form button {
   width: 300px;
   height: 40px;
   background-color: #fd923f;
@@ -59,8 +65,10 @@
   font-size: 12pt;
 }
 
-.subDiv form span {
-  color: red;
-  position:absolute;
-  margin-top: 50px;
+.divForm form button:hover {
+  background-color: #6df874;
+  color: #222;
+  transition: 1s;
+  border-style: none;
 }
+

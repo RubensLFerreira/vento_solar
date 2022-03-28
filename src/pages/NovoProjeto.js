@@ -1,36 +1,18 @@
-import { useHistory } from 'react-router-dom' ///cjs/react-router-dom.min'
-import ProjetoForm from '../components/project/ProjetoForm'
-import styles from './NovoProjeto.module.css'
+// import { useHistory } from 'react-router-dom' ///cjs/react-router-dom.min'
+// import ProjetoForm from '../components/project/ProjetoForm'
+import styles from "./NovoProjeto.module.css";
+import LinkButton from "../components/layout/LinkButton";
+import ambiente2 from "../img/ambiente2.png";
 
 function NovoProjeto() {
-
-  const history = useHistory()
-
-  function createPost(project) {
-    // initialize cost and services
-    project.cost = 0
-    project.services = []
-
-    fetch('http://localhost:5000/projects', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json', 
-      },
-      body: JSON.stringify(project),
-    })
-      .then((resp) => resp.json())
-      .then((data) => {
-        history.push('/projects', { message: 'Projeto criado com sucesso!' })
-      })
-  }
-
   return (
-    <div className={styles.novoprojeto_container}>
-      <h1>Criar Projetos</h1>
-      <p>Crie seu projeto para depois adicionar os serviços</p>
-      <ProjetoForm handleSubmit={createPost} btnText="Criar projeto"/>
+    <div className={styles.mainDiv}>
+      <div className={styles.subDiv}>
+        <img src={ambiente2} alt="ambiente" />
+        <LinkButton to="/Empresa" text="Voltar" />
+      </div>
     </div>
-  )
+  );
 }
 
-export default NovoProjeto
+export default NovoProjeto;

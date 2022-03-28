@@ -1,13 +1,34 @@
-.novoprojeto_container {
-  width: 450px;
-  margin: 0 auto;
-  padding: 3em;
+.mainDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
 }
 
-.novoprojeto_container h1 {
-  margin-bottom: 0.5em;
+.subDiv {
+  width: 80%;
+  height: 90%;
+  background: #4d5f8d; 
+  padding: 10px;
+  background-color: #000000bb;
+  box-shadow: 4px 10px 12px black;
+  border-radius: 5px;
+  margin: 40px auto 40px auto;
 }
+  .subDiv h1 {
+    color: #fd923f;
+    padding: 8px;
+  }
+  .subDiv p {
+    color: rgb(228, 228, 228);
+    padding: 8px;
+    text-align: justify;
+    margin-top: 10px;
+    font-size: clamp(1rem, 0.6vw, 2rem);
+  } 
 
-.novoprojeto_container p {
-  color: #7b7b7b;
-}
+  .subDiv img {
+    width: 80%;
+    margin-left: 10%;
+  }

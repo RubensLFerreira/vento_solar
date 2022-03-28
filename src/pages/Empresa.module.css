@@ -1,27 +1,39 @@
-.subDiv {
-  margin-top: 40px;
-  width: 1100px;
-  height: 900px;
-  background: #4d5f8d; 
-  margin-left: 20px; 
-  padding: 10px;
-  margin-top:10px;
-  background-color: rgba(34, 34, 34, 0.87);
-  border-radius: 5px;
-  margin-bottom: 40px;
-  }
-  .subDiv h1 {
-    color: #fd923f;
-    padding: 8px;
-  }
-  .subDiv p {
-    color: rgb(204, 204, 204);
-    padding: 8px;
-    text-align: justify;
-  }
 .mainDiv {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+}
+
+.subDiv {
+  width: 80%;
+  height: 90%;
+  background: #4d5f8d; 
+  padding: 10px;
+  background-color: rgba(34, 34, 34, 0.87);
+  border-radius: 5px;
+  margin: 40px auto 40px auto;
+}
+  .subDiv h1 {
+    color: #fd923f;
+    padding: 8px;
+  }
+  .subDiv p {
+    color: rgb(228, 228, 228);
+    padding: 8px;
+    text-align: justify;
+    margin-top: 10px;
+    font-size: clamp(1rem, 0.6vw, 2rem);
+  } 
+
+.sectionDiv {
+  width: 50%;
+  height: 80%;
+  display: inline-block;
+  flex-wrap: wrap;
+}
+
+.sectionDiv img {
+  width: 80%;
+  margin-left: 30px;
 }

@@ -1,5 +1,5 @@
 import styles from './Home.module.css'
-// import logo_full_vertical_fundo_branco from '../../src/img/logo_full_vertical_fundo_branco.png'
+//import logo_full_vertical_fundo_branco from '../../src/img/logo_full_vertical_fundo_branco.png'
 import LinkButton from '../components/layout/LinkButton'
 
 

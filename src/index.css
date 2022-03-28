@@ -7,8 +7,13 @@
 
 html, body, #root {
   background-image: url("./img/wallpaper.webp");
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-size: cover;
   height: 100%;
   width: 100%;
+}
+
+p::selection {
+  background-color: #fd923f;
+  color: #222;
 }
