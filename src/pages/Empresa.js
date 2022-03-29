@@ -18,7 +18,7 @@ function Empresa() {
           </p>
 
           <p>
-            A Vento Solar vem se destacando Nacionalmente e internacionalmente
+            A <b>Vento Solar</b> vem se destacando Nacionalmente e internacionalmente
             pela metodologia de trabalho, execução dos planos de projetos e
             pelas parcerias com outras empresas no ramo de tecnologias e
             sustentabilidade.
@@ -30,7 +30,7 @@ function Empresa() {
             está concorrendo pelo título de melhor empresa Nordestina em um
             evento idealizado pela <b>Rede Globo</b> e demais mídias de
             telecomunicação, e na categoria Projetos Sustentáveis idealizado
-            pela <i>CIPS</i> (Convenção Internacional de Projetos Sustentáveis).
+            pela <abbr title="Convenção Internacional de Projetos Sustentáveis">CIPS</abbr> (Convenção Internacional de Projetos Sustentáveis).
           </p>
         </div>
         <div className={styles.sectionDiv}>

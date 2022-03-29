@@ -14,11 +14,11 @@ function Projetos() {
           <div>
             <h2>Energia solar</h2>
             <p>
-              Energia solar é um termo que se refere à energia proveniente da
-              luz e do calor do Sol. É utilizada por meio de diferentes
-              tecnologias em constante evolução, como o aquecimento solar, a
-              energia solar fotovoltaica, a energia heliotérmica, a arquitetura
-              solar e a fotossíntese artificial.
+              Oferecemos equipamentos, serviços e produtos para pessoas e
+              empresas que desejam ter um melhor consumo de energia e pagando um
+              valor acessível. A nossa empresa conta com profissionais
+              especializados em instalação de painéis solares, manutenção e
+              apoio ao cliente 24h.
             </p>
           </div>
           <div>
@@ -33,10 +33,12 @@ function Projetos() {
           <div>
             <h2>Energia eólica</h2>
             <p>
-              Energia eólica é a transformação da energia do vento em energia
-              útil, tal como na utilização de aerogeradores para produzir
-              eletricidade, moinhos de vento para produzir energia mecânica ou
-              velas para impulsionar veleiros.
+              A Vento Solar também conta com o serviços de prêmios para mega
+              empresas que necessitam de um grande poder de energia para suprir
+              maquinários pesados. A Vento Solar conta com o que a demais
+              tecnológico no mercado, e tecnologia de ponta para um melhor
+              proveito de energia, livre de desperdícios ou qualquer impacto
+              ambiental.
             </p>
           </div>
         </div>
@@ -46,12 +48,12 @@ function Projetos() {
             <h2>Terceiridade</h2>
 
             <p>
-              A terceirização de atividade-fim firmada na Lei 11.442, de 2007 e
-              a exigência de qualidade cada vez maior nos serviços das
-              distribuidoras de energia, por parte dos consumidores e da Agência
-              Nacional de Energia Elétrica (Aneel), tem tornado comum o uso de
-              empresas terceirizadas na prestação dos serviços essenciais da
-              operação das concessionárias.
+              A Vento Solar conta com suporte 24h por dia para clientes e
+              empresas parceiras, com profissionais capacitados e atendimento
+              online. Oferecemos desde de planejamento básico, supervisões,
+              capacitação até aplicações mais específicas e complexas.
+              Atualmente somos líderes em satisfação ao cliente com mais de 5
+              mil clientes ativos em todo o país.
             </p>
           </div>
           <div>
